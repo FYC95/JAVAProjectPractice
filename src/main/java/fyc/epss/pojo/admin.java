@@ -1,10 +1,11 @@
 package fyc.epss.pojo;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class admin {
+public class admin implements Serializable {
     private List<info> infoList = new ArrayList<>();
     private List<business> businessesList = new ArrayList<>();
     private List<orderMap> orderMapsList = new ArrayList<>();

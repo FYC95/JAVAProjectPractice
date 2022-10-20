@@ -1,8 +1,9 @@
 package fyc.epss.pojo;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class orderMap {
+public class orderMap implements Serializable {
     private Integer id;
     private admin aid;
     private food fid;

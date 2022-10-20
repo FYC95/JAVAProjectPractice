@@ -1,11 +1,12 @@
 package fyc.epss.pojo;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class business {
-//    private List<food> foodList = new ArrayList<>();
+public class business implements Serializable {
+    private List<food> foodList = new ArrayList<>();
     private Integer id;
     private String password;
     private String businessName;

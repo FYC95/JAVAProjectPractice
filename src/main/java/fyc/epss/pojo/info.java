@@ -1,8 +1,9 @@
 package fyc.epss.pojo;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class info {
+public class info implements Serializable {
     private Integer id;
     private admin aid;
     private String phone;
